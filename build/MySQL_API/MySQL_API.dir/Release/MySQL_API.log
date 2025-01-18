@@ -1,0 +1,6 @@
+﻿  MySQL_DB.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+D:\Work\Database_API\MySQL_API\MySQL_DB.cpp(250,1): warning C4172: возвращение адреса локальной или временной переменной : infoBuf
+D:\Work\Database_API\MySQL_API\MySQL_DB.cpp(261,1): warning C4715: MySQL_API::nameUser: значение возвращается не при всех путях выполнения
+D:\Work\Database_API\MySQL_API\MySQL_DB.cpp(260,1): warning C4172: возвращение адреса локальной или временной переменной : name
+  MySQL_API.vcxproj -> D:\Work\Database_API\lib\Release\MySQL_API.lib

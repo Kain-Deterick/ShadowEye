@@ -1,0 +1,4 @@
+D:/Work/Database_API/build/CMakeFiles/DB_API.dir
+D:/Work/Database_API/build/CMakeFiles/ALL_BUILD.dir
+D:/Work/Database_API/build/CMakeFiles/ZERO_CHECK.dir
+D:/Work/Database_API/build/MySQL_API/CMakeFiles/MySQL_API.dir

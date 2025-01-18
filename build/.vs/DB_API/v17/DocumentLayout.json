@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Work\\Database_API\\build\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{170795B0-AA0E-3DA1-8EDD-5E41DE432BE7}|MySQL_API\\MySQL_API.vcxproj|D:\\Work\\Database_API\\MySQL_API\\MySQL_DB.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05E19A6-D3C7-3B5B-B32C-63739C7CD03D}|DB_API.vcxproj|D:\\Work\\Database_API\\Headers\\CheckProcess.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05E19A6-D3C7-3B5B-B32C-63739C7CD03D}|DB_API.vcxproj|D:\\Work\\Database_API\\Headers\\SmartHandle.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170795B0-AA0E-3DA1-8EDD-5E41DE432BE7}|MySQL_API\\MySQL_API.vcxproj|D:\\Work\\Database_API\\MySQL_API\\immutable_variables.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{170795B0-AA0E-3DA1-8EDD-5E41DE432BE7}|MySQL_API\\MySQL_API.vcxproj|D:\\Work\\Database_API\\MySQL_API\\MySQL_DB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C05E19A6-D3C7-3B5B-B32C-63739C7CD03D}|DB_API.vcxproj|D:\\Work\\Database_API\\Source\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 180,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CheckProcess.h",
+              "DocumentMoniker": "D:\\Work\\Database_API\\Headers\\CheckProcess.h",
+              "RelativeDocumentMoniker": "..\\Headers\\CheckProcess.h",
+              "ToolTip": "D:\\Work\\Database_API\\Headers\\CheckProcess.h",
+              "RelativeToolTip": "..\\Headers\\CheckProcess.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T19:48:30.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartHandle.h",
+              "DocumentMoniker": "D:\\Work\\Database_API\\Headers\\SmartHandle.h",
+              "RelativeDocumentMoniker": "..\\Headers\\SmartHandle.h",
+              "ToolTip": "D:\\Work\\Database_API\\Headers\\SmartHandle.h",
+              "RelativeToolTip": "..\\Headers\\SmartHandle.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T19:48:29.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MySQL_DB.h",
+              "DocumentMoniker": "D:\\Work\\Database_API\\MySQL_API\\MySQL_DB.h",
+              "RelativeDocumentMoniker": "..\\MySQL_API\\MySQL_DB.h",
+              "ToolTip": "D:\\Work\\Database_API\\MySQL_API\\MySQL_DB.h",
+              "RelativeToolTip": "..\\MySQL_API\\MySQL_DB.h",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAEAAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T19:48:26.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "immutable_variables.h",
+              "DocumentMoniker": "D:\\Work\\Database_API\\MySQL_API\\immutable_variables.h",
+              "RelativeDocumentMoniker": "..\\MySQL_API\\immutable_variables.h",
+              "ToolTip": "D:\\Work\\Database_API\\MySQL_API\\immutable_variables.h",
+              "RelativeToolTip": "..\\MySQL_API\\immutable_variables.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-25T19:48:24.33Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 220,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Work\\Database_API\\Source\\main.cpp",
+              "RelativeDocumentMoniker": "..\\Source\\main.cpp",
+              "ToolTip": "D:\\Work\\Database_API\\Source\\main.cpp",
+              "RelativeToolTip": "..\\Source\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-03T15:08:38.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MySQL_DB.cpp",
+              "DocumentMoniker": "D:\\Work\\Database_API\\MySQL_API\\MySQL_DB.cpp",
+              "RelativeDocumentMoniker": "..\\MySQL_API\\MySQL_DB.cpp",
+              "ToolTip": "D:\\Work\\Database_API\\MySQL_API\\MySQL_DB.cpp",
+              "RelativeToolTip": "..\\MySQL_API\\MySQL_DB.cpp",
+              "ViewState": "AQIAADsBAAAAAAAAAAAAAH0AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-26T21:11:27.603Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

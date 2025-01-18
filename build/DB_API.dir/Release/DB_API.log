@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+  DB_API.vcxproj -> D:\Work\Database_API\bin\Release\DB_API.exe

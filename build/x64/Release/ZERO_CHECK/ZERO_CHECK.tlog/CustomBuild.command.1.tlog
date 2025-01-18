@@ -1,0 +1,10 @@
+^D:\WORK\DATABASE_API\BUILD\CMAKEFILES\F996641C05F3B100BE2551423CB6707F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Work/Database_API -BD:/Work/Database_API/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Work/Database_API/build/DB_API.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

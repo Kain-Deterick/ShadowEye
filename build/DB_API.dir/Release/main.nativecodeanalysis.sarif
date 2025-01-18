@@ -1,0 +1,232 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Переменная \"sql::Variant::variant\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/MySQL/MySQL Connector C++ 9.0/include/jdbc/cppconn/variant.h"
+                },
+                "region": {
+                  "startLine": 298,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "sql::Variant::{ctor}",
+                  "decoratedName": "??0Variant@sql@@QEAA@AEBV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "sql::Variant::variant"
+          }
+        },
+        {
+          "ruleId": "C6262",
+          "message": {
+            "text": "Функция использует байты стека \"32772\".  Рассмотрите возможность перемещения некоторых данных в кучу."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Work/Database_API/Source/main.cpp"
+                },
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "computerID",
+                  "decoratedName": "?computerID@@YAPEBDXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33520.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/MySQL/MySQL Connector C++ 9.0/include/jdbc/cppconn/variant.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "012748f9596d58357187366b5c183f55074040a7fac1cf8e41de6d2bd20477ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/Work/Database_API/Source/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6af9b279d4f0f8ac0aa56fb037f4ec6631b151818c514bbf8b8e3bb84283e264"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/database_api/mysql_api/mysql_db.h"
+          },
+          "hashes": {
+            "sha-256": "9375e1f8cffc017b909f74132b25b6d898425584b7d96b714b6c32cdc28c6f9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/mysql_connection.h"
+          },
+          "hashes": {
+            "sha-256": "f257d597da16408451902d8e2d53a316ffee68df42dbeef63ab7fb6338b3e1ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/connection.h"
+          },
+          "hashes": {
+            "sha-256": "8937749cf859b8ce0042a0bc5dc89cde60af9a65cfb589e17138e8569fb655b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/build_config.h"
+          },
+          "hashes": {
+            "sha-256": "8232e5dfae863f593ab90a810a0efee46119e8758fb2bf38d7070543f896ad27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/warning.h"
+          },
+          "hashes": {
+            "sha-256": "ca916e6466790912d0eebb27edfcdd89a604ebe8cdd44c12676924906d1be1f8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/sqlstring.h"
+          },
+          "hashes": {
+            "sha-256": "36b46920e21fa1414723db3a66912d8cc145f07e06b02ed72fb08015e42d7981"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/exception.h"
+          },
+          "hashes": {
+            "sha-256": "8893367686f2fa4eddca282b51b903b8f2f5e8c50ed6d5b498ee8669d6a9a7a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/driver.h"
+          },
+          "hashes": {
+            "sha-256": "265e64c26c8f785e4e3f415fb2aac0ff2cbc7060da63426291048c7e1631e0b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/callback.h"
+          },
+          "hashes": {
+            "sha-256": "3626d704c3b1433fc7ac6153276b3dc3129a51b125bfdc105e6259541372e557"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/resultset.h"
+          },
+          "hashes": {
+            "sha-256": "bc887df0ea28d7fa4ad464c991552b058e6f65c56f82e033459c7b413b506355"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/config.h"
+          },
+          "hashes": {
+            "sha-256": "1224f617fb4a755ae7720fbd22417dfe805f2b3949b1a839f41f467047509e72"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/resultset_metadata.h"
+          },
+          "hashes": {
+            "sha-256": "796db497b630576ce333e2cbe42d225bdacca67ab3c9e766713c1a02609b84f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/datatype.h"
+          },
+          "hashes": {
+            "sha-256": "a3ec5ab4afa901e756ae1dd5323c662fc947a9470767df5f937b209b291aba03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/statement.h"
+          },
+          "hashes": {
+            "sha-256": "ba6278f5c3dd139600abd34db1b9997fc69f13424f94b9ab3a0a8c93240a82ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/mysql/mysql connector c++ 9.0/include/jdbc/cppconn/prepared_statement.h"
+          },
+          "hashes": {
+            "sha-256": "0bdbfeae2ae028eb09768804b364417fff609e26ef1f7f7d00a477ece621629a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/work/database_api/mysql_api/immutable_variables.h"
+          },
+          "hashes": {
+            "sha-256": "b07bb4ec65527b2333eacc92107c6aa649318f806d989cca99e7f8b2bb8f2d42"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Work/Database_API/CMakeLists.txt
+  main.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+LINK : fatal error LNK1104: не удается открыть файл "C:\Program Files\MySQL\MySQL Connector C++ 9.0\lib64\debug\vs14\mysqlcppconnx.lib"

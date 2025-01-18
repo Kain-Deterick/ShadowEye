@@ -1,0 +1,10 @@
+^D:\WORK\DATABASE_API\MYSQL_API\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Work/Database_API -BD:/Work/Database_API/build --check-stamp-file D:/Work/Database_API/build/MySQL_API/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
